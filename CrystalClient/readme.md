@@ -22,7 +22,7 @@ puts "Generated Base64Id: #{base64SubmodelId}" # Check the generated Base64 Id i
 submodelElementIdShort = "DetectionCounter"
 route = "http://#{serverIpAddress}:#{port}/api/v3.0/submodels/#{base64SubmodelId}/submodel-elements/#{submodelElementIdShort}/$value"
 
-puts "Generated Route #{route}" # Check the generated route
+puts "Generated Route: #{route}" # Check the generated route
 
 while true
     randomInt = Random.new.rand(100) # Generation of a random number to update the property
