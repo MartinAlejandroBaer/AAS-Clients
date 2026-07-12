@@ -3,6 +3,10 @@ In this repository, basic scripts for interaction with AAS Servers are going to 
 
 The idea of this repo is to collect different alternatives for data and information consumption from different AAS Servers using different programming languages and I4.0-Compliant Communication procotols, such as: AMQP, HTTP, MQTT and OPC UA
 
+## Implementation Schema
+
+![alt text](schema.svg)
+
 ### CrystalClient - HTTP
 * Link to the script => [Link](https://github.com/MartinAlejandroBaer/httpAASupdater/tree/main/CrystalClient)
 * In this case, a simple http client using the Crystal programming language and its standar HTTP library. Other libraries such as "json", "time" and "base64" are also utilised. 
