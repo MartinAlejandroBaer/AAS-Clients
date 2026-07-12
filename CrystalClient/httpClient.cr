@@ -10,10 +10,10 @@ submodelId = "https://example.com/ids/sm/3264_2292_6062_3308"
 base64SubmodelId = Base64.strict_encode(submodelId)
 puts "Generated Base64Id: #{base64SubmodelId}" # Check the generated Base64 Id in the console
 
-submodelElementIdShort = "DetectionCounter"
+submodelElementIdShort = "idShortofTheSubmodel"
 route = "http://#{serverIpAddress}:#{port}/api/v3.0/submodels/#{base64SubmodelId}/submodel-elements/#{submodelElementIdShort}/$value"
 
-puts "Generated Route #{route}" # Check the generated route
+puts "Generated Route: #{route}" # Check the generated route
 
 while true
     randomInt = Random.new.rand(100) # Generation of a random number to update the property
