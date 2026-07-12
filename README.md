@@ -5,7 +5,9 @@ The idea of this repo is to collect different alternatives for data and informat
 
 ## Implementation Schema
 
+<div align="center;style="font-size:0.5em;"">
 ![alt text](schema.svg)
+</div>
 
 ### CrystalClient - HTTP
 * Link to the script => [Link](https://github.com/MartinAlejandroBaer/httpAASupdater/tree/main/CrystalClient)
